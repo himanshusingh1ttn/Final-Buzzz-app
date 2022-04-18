@@ -35,7 +35,5 @@ app.use(express.static(path.join(__dirname,"../frontend/build")));
 app.get("*", (req, res) => {
     res.sendFile(path.resolve(__dirname, "../frontend/build/index.html"));
   });
-  app.get("/abc",(req,res)=>{
-      res.send('mongodb+srv://himanshu:himanshu@clusterfree.wmx1p.mongodb.net/SocialMedia?retryWrites=true&w=majority')
-  })
+ 
 module.exports = app;
