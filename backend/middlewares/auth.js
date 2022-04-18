@@ -11,7 +11,7 @@ exports.isAuthenticated = async (req, res, next) => {
       });
     }
 
-    const decoded = await jwt.verify(token, process.env.JWT_SECRET);
+    const decoded = await jwt.verify(token, "himanshu");
 
     req.user = await User.findById(decoded._id);
 
