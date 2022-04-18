@@ -1,0 +1,13 @@
+var file ={
+    PORT : 4000,
+   MONGO_URI : 'mongodb+srv://himanshu:himanshu@clusterfree.wmx1p.mongodb.net/SocialMedia?retryWrites=true&w=majority',
+ 
+
+    CLOUDINARY_NAME:"buzz-project",
+    CLOUDINARY_API_KEY:"897274941814679",
+    CLOUDINARY_API_SECRET:"6Z8iK2Kt6r8TdCV5F73cjhEfCfM",
+
+JWT_SECRET : "fucntionsecret"
+
+}
+module.exports = file;
