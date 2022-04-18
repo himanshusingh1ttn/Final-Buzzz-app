@@ -11,6 +11,6 @@ cloudinary.config({
    api_secret: file.CLOUDINARY_API_SECRET,
 })
 
-app.listen(file.PORT,()=>{
-   console.log(`Server is running on port ${file.PORT}`);
+app.listen(process.env.PORT,()=>{
+   console.log(`Server is running on port ${process.env.PORT}`);
 });
