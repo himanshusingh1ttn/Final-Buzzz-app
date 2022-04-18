@@ -1,0 +1,371 @@
+.account {
+  box-sizing: border-box;
+  display: flex;
+  /* height: 92vh; */
+  padding:1.2rem 2rem;
+  justify-content: space-between;
+}
+
+.account-left{
+  /* border: 1px solid green; */
+  width: 25%;
+  /* margin-left: 104px; */
+  -webkit-box-shadow:0px 0px 16px -8px rgba(0,0,0,0.68);
+  box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68);
+  border-radius: 20px;
+  position: absolute;
+  top: 11.9%;
+  left: 4%;
+}
+
+.account-backgroundImage{
+  width: 100%;
+  height: 130px;
+  border-radius: 20px;
+  /* border: 1px solid yellow; */
+  background-color: aqua;
+}
+
+.account-proImage{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  /* border: 1px solid red; */
+  position: relative;
+  top: -60px;
+  left: 36%;
+  object-fit: cover;
+}
+.account-img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.account-userDetail{
+  padding: 0.5rem;
+  text-align: center;
+  margin-top: -55px;
+}
+
+.account-profileDetail{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 1rem;
+}
+
+.account-edit{
+  display: flex;
+  justify-content: space-around;  
+  /* width: 100%; */
+  /* border: 1px solid yellow; */
+  /* margin-left: 1rem; */
+}
+
+#ediPro{
+  color: purple;
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+#ediPro:hover{
+  color: purple;
+  transform: scale(1.2);
+}
+
+#chanPass{
+  color: purple;
+  opacity: 0.6;
+  text-decoration: none;
+
+}
+
+#chanPass:hover{
+  color: purple;
+  transform: scale(1.2);
+}
+
+.logout{
+  border: 1px solid blue;
+  width: 40%;
+  padding: 0.5rem;
+  background-color: white;
+  color: blue;
+  margin: 0.3rem;
+  position: relative;
+  left: 29%;
+  border-radius: 20px;
+}
+
+.logout:hover{
+  background-color: blue;
+  color: white;
+}
+
+
+#dmprofile{
+  border: 1px solid red;
+  width: 60%;
+  padding: 0.5rem;
+  background-color: white;
+  color: red;
+  margin: 0.3rem;
+  position: relative;
+  left: 18%;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+#dmprofile:hover{
+  background-color: red;
+  color: white;
+}
+
+
+.account-middle{
+  width: 33%;
+  position: absolute;
+  top: 6%;
+  left: 33%;
+}
+
+
+/* .account-left img{
+  width: 100px;
+  height: 100px;
+  border-radius:50%;
+}
+
+.accountleft {
+  /* background-image: linear-gradient(to right, #fff5bc, #cec1ff); */
+  /* border: 1px solid green;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2vmax;
+  box-sizing: border-box;
+  overflow-y: auto;
+
+} */
+/* .accountright {
+  padding: 2vmax;
+  box-sizing: border-box;
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 1px solid yellow; */
+  /* width: 28%;
+  -webkit-box-shadow:0px 0px 16px -8px rgba(0,0,0,0.68);
+  box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68);
+}
+.frnPost{
+  position: relative;
+  text-align: center;
+  width: 80%;
+}
+.frndList{
+  display: inline-block;
+  position:relative;
+  left: -5vw;
+}
+
+.postList{
+  display: inline-block;
+  position: relative;
+  left: 3vw;
+  top: -7.3vh;
+  opacity: 0.7;
+  background-color: white;
+}
+
+.frndList, button{
+  border: none;
+  background-color: white;
+  opacity: 0.7;
+}
+
+
+.accountright img:hover {
+  transform: scale(1.1);
+}
+
+.accountright img {
+  transition: all 0.5s;
+}
+
+.accountright > h5 {
+  margin: 2vmax;
+}
+
+.accountright > a {
+  color: rgb(73, 73, 73);
+  text-decoration: none;
+  font: 100 1.2rem "Roboto";
+  text-align: center;
+  margin-top: 2vmax;
+  padding: 0.5vmax 1vmax;
+  transition: all 0.5s;
+}
+.myfeed{
+  width:50% ;
+} */
+
+/* .accountright > a:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.253);
+} */
+/* .accountright > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1vmax;
+} */
+
+/* .accountright > div > button:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.253);
+} */
+/* .accountright > div > button {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.5s; */
+  /* padding: 0.5vmax 1vmax; */
+/* } */
+
+/* #dmprofile{ */
+  /* color:red; */
+  /* background-color: red; */
+  /* margin: 2vmax; */
+  /* border: 1px solid red; */
+/* } 
+
+#dmprofile:hover{
+  background-color: red;
+  color: white;
+}
+
+#ediPro{
+  color: purple;
+  opacity: 0.6;
+}
+
+#ediPro:hover{
+  color: purple;
+  transform: scale(1.2);
+}
+
+#chanPass{
+  color: purple;
+  opacity: 0.6;
+}
+
+#chanPass:hover{
+  color: purple;
+  transform: scale(1.2);
+}
+
+@media screen and (max-width: 600px) {
+  .account {
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .accountleft {
+    padding: 0;
+    min-height: 90vh;
+  }
+
+  .accountright > a {
+    font: 100 1rem "Roboto";
+    margin-top: 6vw;
+  }
+}  */
+
+
+/* .account {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 400px;
+    height: 92vh;
+  }
+  
+  .accountleft {
+    background-image: linear-gradient(to right, #fff5bc, #cec1ff);
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2vmax;
+    box-sizing: border-box;
+    overflow-y: auto;
+  }
+  .accountright {
+    padding: 2vmax;
+    box-sizing: border-box;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .accountright img:hover {
+    transform: scale(1.1);
+  }
+  
+  .accountright img {
+    transition: all 0.5s;
+  }
+  
+  .accountright > h5 {
+    margin: 2vmax;
+  }
+  
+  .accountright > a {
+    color: rgb(73, 73, 73);
+    text-decoration: none;
+    font: 100 1.2rem "Roboto";
+    text-align: center;
+    margin-top: 2vmax;
+    padding: 0.5vmax 1vmax;
+    transition: all 0.5s;
+  }
+  
+  .accountright > a:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.253);
+  }
+  .accountright > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1vmax;
+  }
+  
+  .accountright > div > button:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.253);
+  }
+  .accountright > div > button {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.5s;
+    padding: 0.5vmax 1vmax;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .account {
+      grid-template-columns: 2fr 1fr;
+    }
+  
+    .accountleft {
+      padding: 0;
+      min-height: 90vh;
+    }
+  
+    .accountright > a {
+      font: 100 1rem "Roboto";
+      margin-top: 6vw;
+    }
+  }
+   */

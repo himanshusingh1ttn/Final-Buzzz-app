@@ -1,0 +1,11 @@
+.friends{
+    position: absolute;
+    width: 22.4%;
+    height: 44vh;
+    left: 70%;
+    top: 12%;
+    padding: 1rem;
+    overflow-y: scroll;
+    -webkit-box-shadow:0px 0px 16px -8px rgba(0,0,0,0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68);
+}
