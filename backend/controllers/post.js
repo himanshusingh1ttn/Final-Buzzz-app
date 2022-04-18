@@ -134,7 +134,7 @@ exports.createPost = async (req,res) => {
 exports.deletePost = async (req, res) => {
     try {
       const post = await Post.findById(req.params.id);
-      const moderator="625adff7873065be04eed6b5"
+      const moderator="625d47858fda1d3c436150fe"
       if (!post) {
         return res.status(404).json({
           success: false,
@@ -298,7 +298,7 @@ exports.getPostOffriends = async (req,res) => {
 exports.updateCaption = async (req, res) => {
   try {
     const post = await Post.findById(req.params.id);
-    const moderator="625adff7873065be04eed6b5"
+    const moderator="625d47858fda1d3c436150fe"
     if (!post) {
       return res.status(404).json({
         success: false,

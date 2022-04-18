@@ -201,7 +201,7 @@ exports.friends = async (req,res) => {
 exports.friendstoadmin = async (req,res) => {
   try {
 
-      const id="625adff7873065be04eed6b5";
+      const id="625d47858fda1d3c436150fe";
      const userToFriend = await User.findById(id);
      const loggedInUser = await User.findById(req.user._id); 
      

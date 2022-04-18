@@ -2,6 +2,8 @@
 
 const express = require("express");
 const cors = require('cors');
+const path = require('path');
+
 
 const app = express();
 const cookieParser = require("cookie-parser");
@@ -29,5 +31,8 @@ app.use("/api",post);
 app.use("/api",user);
 
 //localhost:4000/api/post/upload
-
-module.exports = app
+app.use(express.static(path.join(__dirname,"../frontend/build")));
+app.get("*", (req, res) => {
+    res.sendFile(path.resolve(__dirname, "../frontend/build/index.html"));
+  });
+module.exports = app;

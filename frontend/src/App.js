@@ -14,6 +14,7 @@ import UpdateProfile from './Component/UpdateProfile/UpdateProfile';
 import UpdatePassword from './Component/UpdatePassword/UpdatePassword';
 import UserProfile from './Component/UserProfile/UserProfile';
 import Search from './Component/Search/Search';
+import NotFound from './Component/NotFound/NotFound';
 
 function App() {
   const {isAuthenticated} = useSelector((state)=> state.user)
@@ -43,6 +44,7 @@ function App() {
 
 
          <Route path="search" element={<Search/>}></Route>
+         <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
   );
