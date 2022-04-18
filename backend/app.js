@@ -8,7 +8,7 @@ const file = require("./config/config");
 const app = express();
 const cookieParser = require("cookie-parser");
 if(file.NODE_ENV !== "production"){
-    require("dotenv").config({path:"backend/config/config.env"});
+    // require("dotenv").config({path:"backend/config/config.env"});
 }
 
 
